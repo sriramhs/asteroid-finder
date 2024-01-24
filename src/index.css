@@ -1,0 +1,25 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+
+.index
+{
+  background-image: radial-gradient(circle, rgba(0,0,0,0.5803571428571428) 0%, rgba(33,33,35,1) 100%), url("/public/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.main{
+  display:flex;
+  justify-content: center;
+  padding-top: 15%;
+  
+}
